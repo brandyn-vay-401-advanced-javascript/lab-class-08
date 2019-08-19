@@ -5,42 +5,25 @@
 ### Author: Brandyn Vay
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
-
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [submission PR](https://github.com/brandyn-vay-401-advanced-javascript/lab-class-08)
+* [travis](https://travis-ci.com/brandyn-vay-401-advanced-javascript/lab-class-08)
 
 ### Modules
-#### `modulename.js`
+#### `categories-schema.js`
+#### `categories.js`
+#### `products-schema.js`
+#### `products-schema.js`
+#### `app.js`
 ##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `PORT` - 3000
+* `MONGODB_URI` - MONGODB_URI=mongodb://localhost:27017/`database name`
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* How do you run tests? Run npm test in the terminal.
+
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML](./assets/UML.png)
