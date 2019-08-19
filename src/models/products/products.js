@@ -8,8 +8,7 @@ const schema = require('./products-schema.js');
 
 class Products extends Model {
   constructor() {
-    super();
-    this.schema = schema;
+    super(schema);
   }
 }
 
